@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[My New Post]]></title>
+      <url>/2017/10/14/My-New-Post/</url>
+      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""></excerpt></p>
+<ul>
+<li>123<a id="more"></a></li>
+<li>456<the rest="" of="" contents="" |="" more="">
+</the></li>
+</ul>
+<hr>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> js </tag>
+            
+            <tag> html </tag>
+            
+            <tag> angular </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git基本配置和使用]]></title>
+      <url>/2017/10/14/git%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""></excerpt></p>
+<ul>
+<li>git基本配置和使用<a id="more"></a></li>
+<li><p>git配置</p>
+<ul>
+<li>首先看自己电脑是否有.ssh文件夹 如果没有的话 ssh-keygen 会自动创建这个文件夹当然这一步应该可以省略 进入下一步哈  配置邮箱和账户名当然这个账户和密码设置的高大上一些 因为以后还是要用的</li>
+<li>个人比较推荐gmail或者163的邮箱，当然gmail会相对比较麻烦一些，因为需要翻墙 翻墙软件也很常见 例如蓝灯 具体蓝灯怎么下载我就不一一说了，我想说的是github还是比较万能的哈</li>
+<li>废话不多说开始第一步</li>
+<li><p>1.配置邮箱和账户名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">"xxx"</span></div><div class="line">$ git config --global user.email <span class="string">"xxx"</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>这个命令可以查看当前配置的具体信息</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git config --global  --list</div></pre></td></tr></table></figure>
+</li>
+<li><p>2.输入一下命令生成ssh秘钥</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C “xxx”</div></pre></td></tr></table></figure>
+</li>
+<li><p>3.配置github的ssh 输入一下命令复制粘贴即可</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cat ~/.ssh/id_rsa.pub</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>复制成功之后打开github上的setting配置 找到ssh并且输入keygen内容，这样git就配置成功了哈 很简单</li>
+</ul>
+<ul>
+<li>git基本配置<ul>
+<li>git status：查看修改了那些文件  git log看看提交的基本信息 例如谁提交了这个版本 还有对应的版本号等</li>
+<li>git pull： 把远程分支的代码拉去到本地</li>
+<li>git fetch + git merge： 合并代码用到的命令 简单来说相当于 git pull</li>
+<li>git commit：把修改的代码提交到本地 并提交这次代码的具体信息详请</li>
+<li>git push： 把本地修改好的代码提交到远程分支上 也就是所说的github上</li>
+<li>git log： 查看提交的版本号以及版本信息 谁提交了什么 在什么时间提交等等</li>
+<li>git revert： 回滚到具体版本 具体的使用方法就是git log 查看你要回滚到的版本 并且执行 git revert</li>
+<li>基本的配置就说到这里，如有不明白或者批评指正的请留言联系我~<the rest="" of="" contents="" |="" more="">
+</the></li>
+</ul>
+</li>
+</ul>
+<hr>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> github </tag>
+            
+            <tag> 基本配置 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2017/10/12/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
