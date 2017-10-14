@@ -3,31 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[My New Post]]></title>
-      <url>/2017/10/14/My-New-Post/</url>
-      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""></excerpt></p>
-<ul>
-<li>123<a id="more"></a></li>
-<li>456<the rest="" of="" contents="" |="" more="">
-</the></li>
-</ul>
-<hr>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> js </tag>
-            
-            <tag> html </tag>
-            
-            <tag> angular </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[git基本配置和使用]]></title>
       <url>/2017/10/14/git%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
       <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""></excerpt></p>
